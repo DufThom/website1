@@ -1,5 +1,11 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { CgGames } from 'react-icons/cg';
+import { FaBitcoin } from 'react-icons/fa';
+import { GiHumanPyramid } from 'react-icons/gi';
+
+
+
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -15,37 +21,37 @@ Ton implication et ta loyauté seront récompensés à leur juste valeur en mati
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <CgGames size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Gaming</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Experience sur  <br />
+            Eve online
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <FaBitcoin size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Crypto</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            OG de l'écosystème <br />
+            blockchain et trading
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <GiHumanPyramid size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Valeurs</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Ambiance bienveillante <br />
+            de partage et de réussite commune
           </ListParagraph>
         </ListContainer>
       </ListItem>
