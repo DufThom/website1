@@ -6,10 +6,12 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import Carrousel from '../components/Carrousel';
 
 const Home = () => {
   return (
     <Layout>
+      <Carrousel />
       <Section grid>
         <Hero />
         <BgAnimation />
