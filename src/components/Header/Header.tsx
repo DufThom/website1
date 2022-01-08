@@ -17,7 +17,7 @@ const Header = () => (
     <Div2>
       <li>
         <Link href='/#projects'>
-          <NavLink>News</NavLink>
+          <NavLink>Guilde</NavLink>
         </Link>
       </li>
       <li>
@@ -27,12 +27,12 @@ const Header = () => (
       </li>
       <li>
         <Link href='/#about'>
-          <NavLink>Objectifs</NavLink>
+          <NavLink>Objectif</NavLink>
         </Link>
       </li>
       <li>
         <Link href='/JoinUs'>
-          <NavLink>Nous rejoindre</NavLink>
+          <NavLink>Codex</NavLink>
         </Link>
       </li>
     </Div2>

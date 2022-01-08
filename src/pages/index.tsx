@@ -12,14 +12,15 @@ const Home = () => {
   return (
     <Layout>
       <Carrousel />
-      <Section grid>
-        <Hero />
-        <BgAnimation />
+      <Section >
+      <Hero />
+        {/* <BgAnimation /> */}
       </Section>
+      <Acomplishments />
       <Projects />
       <Technologies />
       <Timeline />
-      <Acomplishments />
+      
     </Layout>
   );
 };
