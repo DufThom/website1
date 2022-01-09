@@ -1,17 +1,17 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { CgGames } from 'react-icons/cg';
 import { FaBitcoin } from 'react-icons/fa';
 import { GiHumanPyramid } from 'react-icons/gi';
 
 
 
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider divider />
+    <img src='/images/DividerECL.png'  />
+    
     <SectionTitle>Missions</SectionTitle>
     <SectionText>
     Tu pourras faire carrière dans nos rangs et gravir un à un tout les échelons selon ton implication. Une fois dans nos rangs, tu auras l’occasion de rejoindre le “département” qui te convient (combattant, exploration, minage, etc.) afin de t’épanouir.
@@ -56,7 +56,7 @@ Ton implication et ta loyauté seront récompensés à leur juste valeur en mati
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider colorAlt />
+    <img src='/images/DividerECL.png'  />
   </Section>
 );
 

@@ -1,44 +1,41 @@
 import React from 'react';
-import { AiFillInstagram, AiFillTwitterCircle, AiFillMediumCircle } from 'react-icons/ai';
-import { FaDiscord } from 'react-icons/fa';
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import {  FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 
 const Footer = () => {
   return (
-    <FooterWrapper>
-      <LinkList>
-        {/* <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
-        </LinkColumn> */}
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@eclypse.dao">
-            contact@eclypse.dao
-          </LinkItem>
-        </LinkColumn>
-      </LinkList>
+    <Section >
+      <SectionTitle>
+        Le Codex
+      </SectionTitle>
       <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Expert en investissement star atlas!</Slogan>
-        </CompanyContainer>
+      <SocialIcons href="https://eclypse-sa.gitbook.io/eclypse-codex/" >
+            <img src='/images/gitbook.png'  />
+      </SocialIcons>
+      </SocialIconsContainer>
+      <img src='/images/button_container.png'  />
+      <SocialIconsContainer>
+      
         <SocialContainer>
-          <SocialIcons href="https://twitter.com">
-            <AiFillTwitterCircle size="3rem" />
+          <SocialIcons href="https://discord.gg/pz769tvgMJ">
+            <img src='/images/DiscordECL.png' width="250" height="auto" />
           </SocialIcons>
-          <SocialIcons href="https://medium.com">
-            <AiFillMediumCircle size="3rem" />
+          <SocialIcons href="https://youtube.com">
+            <img src='/images/YoutubeECL.png' width="200" height="auto" />
+          </SocialIcons>
+          <SocialIcons href="https://telegram.com">
+            <img src='/images/TelegramECL.png' width="200" height="auto" />
+          </SocialIcons>
+          <SocialIcons href="https://twitter.com">
+            <img src='/images/TwitterECL.png' width="200" height="auto"  />
           </SocialIcons>
           <SocialIcons href="https://instagram.com">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://discord.gg/pz769tvgMJ">
-            <FaDiscord size="3rem" />
+            <img src='/images/InstaECL.png' width="200" height="auto"  />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
-    </FooterWrapper>
+    </Section>
   );
 };
 
