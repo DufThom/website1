@@ -12,7 +12,9 @@ const data = [
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Stats de la Guilde</SectionTitle>
+    <img src='/images/stats.png' width="100%" height="auto" margin="15"/>
+
+    {/* <SectionTitle>Stats de la Guilde</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
@@ -20,7 +22,9 @@ const Acomplishments = () => (
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
-    </Boxes>
+    </Boxes> */}
+
+
   </Section>
 );
 

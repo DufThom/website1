@@ -6,6 +6,9 @@ export const FooterWrapper = styled.section`
   padding: 2rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
+  justify-content: center;
+  text-align: center;
+  
 
 
   @media ${props => props.theme.breakpoints.sm} {
@@ -46,11 +49,11 @@ export const LinkItem = styled.a`
 export const SocialIconsContainer = styled.div`
 max-width: 1040px;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 
 @media ${props => props.theme.breakpoints.md}{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 @media ${props => props.theme.breakpoints.sm}{
