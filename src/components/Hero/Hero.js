@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { Section, SectionDivider,SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section,SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
   <>
     <Section nopadding>
-        <SectionDivider />
+        <img src='/images/DividerECL.png'  />
         <SectionTitle main center>
           La Guilde Francophone<br />
           de Star Atlas !
