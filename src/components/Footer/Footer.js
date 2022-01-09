@@ -14,7 +14,7 @@ const Footer = () => {
             <img src='/images/gitbook.png'  />
       </SocialIcons>
       </SocialIconsContainer>
-      <img src='/images/button_container.png'  />
+      <img src='/images/rejoins_la_faction.png'  />
       <SocialIconsContainer>
       
         <SocialContainer>
