@@ -29,11 +29,13 @@ export const TimeLineInnerBox = styled.div`
   @media ${(props) => props.theme.breakpoints.md} {
     width: 175px;
     height: 125px;
+    padding: 20px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 150px;
     height: 100px;
+    padding: 20px;
   }
 `;
 
@@ -64,7 +66,7 @@ export const TimeLineItemText = styled.p`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 14px;
+    font-size: 12px;
   }
 `;
 

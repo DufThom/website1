@@ -44,7 +44,13 @@ export const projects = [
 
 export const TimeLineData = [
   { year: '01/2022', text: 'Website V1' },
-  { year: ' 04/2022', text: 'Website V2' },
+  { year: '04/2022', text: 'Website V2' },
   { year: '05/2022', text: 'DAO' },
   { year: '12/2022', text: 'Gaming' },
+];
+
+export const TechnologiesData = [
+  { title: 'Gaming', text: 'Experience sur Eve Online' },
+  { title: 'Crypto', text: "OG de l'écosystème blockchain et trading" },
+  { title: 'Valeurs', text: 'Ambiance bienveillante de partage et de réussite commune' },
 ];

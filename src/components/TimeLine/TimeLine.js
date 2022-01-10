@@ -30,7 +30,6 @@ const Timeline = () => {
           </TimeLineBox>
         ))}
       </TimeLineContainer>
-      <img src='/images/DividerECL.png' />
     </Section>
   );
 };
