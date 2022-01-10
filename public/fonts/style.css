@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Game-Of-Squids';
+  src: url('gameofsquids.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Champagne-Limousines';
+  src: url('champagnelimousines.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
