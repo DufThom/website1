@@ -66,6 +66,7 @@ export const InnerBox = styled.div`
 `;
 
 export const BoxNum = styled.h5`
+  font-family: ${(props) => props.theme.fonts.main};
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
@@ -84,7 +85,7 @@ export const BoxNum = styled.h5`
 export const BoxText = styled.p`
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
   text-align: ${(props) => props.align};
