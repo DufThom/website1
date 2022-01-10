@@ -10,7 +10,7 @@ const Header = () => (
     <Div1>
       <Link href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-          <SiEclipseide size='3rem' /> <span> Eclypse</span>
+        <img src='/images/logo_ecl_blanc.png' width="200" height="auto" /> 
         </a>
       </Link>
     </Div1>
@@ -36,20 +36,6 @@ const Header = () => (
         </Link>
       </li>
     </Div2>
-    <Div3>
-      <SocialIcons href='https://twitter.com'>
-        <AiFillTwitterCircle size='3rem' />
-      </SocialIcons>
-      <SocialIcons href='https://instagram.com'>
-        <AiFillInstagram size='3rem' />
-      </SocialIcons>
-      <SocialIcons href='https://medium.com'>
-        <AiFillMediumCircle size='3rem' />
-      </SocialIcons>
-      {/* <SocialIcons href="https://discord.gg/pz769tvgMJ">
-          <FaDiscord size="3rem"/>
-        </SocialIcons>       */}
-    </Div3>
   </Container>
 );
 
