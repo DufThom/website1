@@ -3,7 +3,7 @@ import { CgGames } from 'react-icons/cg';
 import { FaBitcoin } from 'react-icons/fa';
 import { GiHumanPyramid } from 'react-icons/gi';
 
-import { Section } from '../../styles/GlobalComponents';
+import { Divider, Section } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 import { TechnologiesData } from '../../constants/constants';
@@ -25,7 +25,7 @@ const Technologies = () => (
         </ListItem>
       ))}
     </List>
-    <img src='/images/DividerECL.png' />
+    <Divider src='/images/DividerECL.png' />
   </Section>
 );
 

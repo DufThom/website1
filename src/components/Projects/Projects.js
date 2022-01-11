@@ -13,7 +13,7 @@ import {
   UtilityList,
   Img,
 } from './ProjectsStyles';
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Divider, Section, SectionText } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
@@ -57,7 +57,7 @@ const Projects = () => (
       prêts à exécuter leur vision, pour s'exprimer au mieux dans l'histoire du Metaverse. Les armés
       et les fermiers assurent le maintient des portes des écosystèmes, mais pour combien de temps ?
     </SectionText>
-    <img src='/images/DividerECL.png' />
+    <Divider src='/images/DividerECL.png' />
   </Section>
 );
 
