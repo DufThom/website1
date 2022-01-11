@@ -3,7 +3,7 @@ import React from 'react';
 import { Divider, Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 
 const Missions = () => (
-  <Section id='tech'>
+  <Section id='missions'>
     <SectionTitle>Missions</SectionTitle>
     <SectionText>
       Tu pourras faire carrière dans nos rangs et gravir un à un tout les échelons selon ton

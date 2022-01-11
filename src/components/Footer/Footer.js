@@ -9,7 +9,7 @@ import { Section, SectionTitle, GrowingButton, ButtonFrame } from '../../styles/
 
 const Footer = () => {
   return (
-    <Section>
+    <Section id='codex'>
       <SectionTitle>Le Codex</SectionTitle>
       <SocialIconsContainer>
         <GitBookButton
@@ -23,10 +23,9 @@ const Footer = () => {
       <SocialIconsContainer>
         <SocialContainer>
           <GrowingPlanet href='https://discord.gg/pz769tvgMJ' src='/images/DiscordECL.png' />
-          <GrowingPlanet href='https://youtube.com' src='/images/YoutubeECL.png' />
-          <GrowingPlanet href='https://telegram.com' src='/images/TelegramECL.png' />
-          <GrowingPlanet href='https://twitter.com' src='/images/TwitterECL.png' />
-          <GrowingPlanet href='https://instagram.com' src='/images/InstaECL.png' />
+          <GrowingPlanet href='https://www.youtube.com/channel/UCYBS4mSRSq29MykFGGjPb0g' src='/images/YoutubeECL.png' />
+          <GrowingPlanet href='https://twitter.com/EclypseSA' src='/images/TwitterECL.png' />
+          <GrowingPlanet href='https://www.instagram.com/eclypse.sa/' src='/images/InstaECL.png' />
         </SocialContainer>
       </SocialIconsContainer>
     </Section>

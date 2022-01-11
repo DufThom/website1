@@ -17,7 +17,7 @@ import { Divider, Section, SectionText } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <Section nopadding id='projects'>
+  <Section nopadding >
     <SectionText>
       Dans un univers où se mélange virtuel et expérience sociale, les guildes se testent et
       s'affrontent depuis la nuit des temps. Les questions de gestions ont permis d'identifier les

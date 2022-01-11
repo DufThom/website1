@@ -13,7 +13,7 @@ import { TimeLineData } from '../../constants/constants';
 
 const Timeline = () => {
   return (
-    <Section id='about'>
+    <Section id='objectifs'>
       <SectionTitle>Nos Objectifs</SectionTitle>
       <SectionText>
         Construire une communauté de joueur francophone soudé qui saura influencer le cours des

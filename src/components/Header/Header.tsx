@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Div1, Div2, Div3, NavLink } from './HeaderStyles';
 
 const Header = () => (
-  <Container>
+  <Container >
     <Div1>
       <Link href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
@@ -13,23 +13,29 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href='/#projects'>
+        <Link href='/#guilde'>
           <NavLink>Guilde</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='/#tech'>
+        <Link href='/#missions'>
           <NavLink>Mission</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='/#about'>
+        <Link href='/#objectifs'>
           <NavLink>Objectif</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='/JoinUs'>
+        <Link href='/#codex'>
           <NavLink>Codex</NavLink>
+        </Link>
+      </li>
+      <li></li>
+      <li>
+        <Link href='/JoinUs'>
+          <NavLink>Nous Rejoindre</NavLink>
         </Link>
       </li>
     </Div2>

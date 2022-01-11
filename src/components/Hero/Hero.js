@@ -9,7 +9,7 @@ import {
 } from '../../styles/GlobalComponents';
 
 const Hero = () => (
-  <Section>
+  <Section id='guilde'>
     <Divider src='/images/DividerECL.png' />
     <SectionTitle main center>
       La Guilde Francophone de Star Atlas !
