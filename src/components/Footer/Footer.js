@@ -1,38 +1,32 @@
 import React from 'react';
-import { SocialIcons } from '../Header/HeaderStyles';
-import {  FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import {
+  SocialContainer,
+  SocialIconsContainer,
+  GitBookButton,
+  GrowingPlanet,
+} from './FooterStyles';
+import { Section, SectionTitle, GrowingButton, ButtonFrame } from '../../styles/GlobalComponents';
 
 const Footer = () => {
   return (
-    <Section >
-      <SectionTitle>
-        Le Codex
-      </SectionTitle>
+    <Section>
+      <SectionTitle>Le Codex</SectionTitle>
       <SocialIconsContainer>
-      <SocialIcons href="https://eclypse-sa.gitbook.io/eclypse-codex/" >
-            <img src='/images/gitbook.png'  />
-      </SocialIcons>
+        <GitBookButton
+          href='https://eclypse-sa.gitbook.io/eclypse-codex/'
+          src='/images/gitbook.png'
+        />
       </SocialIconsContainer>
-      <img src='/images/button_container.png'  />
       <SocialIconsContainer>
-      
+        <ButtonFrame pic='/images/button_container.png'>Retrouve nos réseaux</ButtonFrame>
+      </SocialIconsContainer>
+      <SocialIconsContainer>
         <SocialContainer>
-          <SocialIcons href="https://discord.gg/pz769tvgMJ">
-            <img src='/images/DiscordECL.png' width="250" height="auto" />
-          </SocialIcons>
-          <SocialIcons href="https://youtube.com">
-            <img src='/images/YoutubeECL.png' width="200" height="auto" />
-          </SocialIcons>
-          <SocialIcons href="https://telegram.com">
-            <img src='/images/TelegramECL.png' width="200" height="auto" />
-          </SocialIcons>
-          <SocialIcons href="https://twitter.com">
-            <img src='/images/TwitterECL.png' width="200" height="auto"  />
-          </SocialIcons>
-          <SocialIcons href="https://instagram.com">
-            <img src='/images/InstaECL.png' width="200" height="auto"  />
-          </SocialIcons>
+          <GrowingPlanet href='https://discord.gg/pz769tvgMJ' src='/images/DiscordECL.png' />
+          <GrowingPlanet href='https://youtube.com' src='/images/YoutubeECL.png' />
+          <GrowingPlanet href='https://telegram.com' src='/images/TelegramECL.png' />
+          <GrowingPlanet href='https://twitter.com' src='/images/TwitterECL.png' />
+          <GrowingPlanet href='https://instagram.com' src='/images/InstaECL.png' />
         </SocialContainer>
       </SocialIconsContainer>
     </Section>

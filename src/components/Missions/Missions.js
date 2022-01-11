@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Divider, Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 
 const Missions = () => (
   <Section id='tech'>
@@ -13,7 +13,7 @@ const Missions = () => (
       investissements et compétences. Ton implication et ta loyauté seront récompensés à leur juste
       valeur en matière de responsabilités et de rémunération en crypto-monnaie.
     </SectionText>
-    <img src='/images/DividerECL.png' />
+    <Divider src='/images/DividerECL.png' />
   </Section>
 );
 
