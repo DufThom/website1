@@ -1,9 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillInstagram, AiFillTwitterCircle, AiFillMediumCircle } from 'react-icons/ai';
-import { SiEclipseide } from 'react-icons/si';
-
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink } from './HeaderStyles';
 
 const Header = () => (
   <Container>
