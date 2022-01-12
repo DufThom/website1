@@ -20,7 +20,7 @@ const Footer = () => {
         />
       </SocialIconsContainer>
       <SocialIconsContainer>
-        <ButtonFrame pic='/images/button_container.png'>Retrouve nos réseaux</ButtonFrame>
+        <ButtonFrame pic='/images/button_container.png'>Nos reseaux</ButtonFrame>
       </SocialIconsContainer>
       <SocialIconsContainer>
         <SocialContainer>

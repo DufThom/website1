@@ -181,6 +181,6 @@ export const GrowingPlanet = styled.img`
     width: 30%;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 30%;
+    width: 50%;
   }
 `;
