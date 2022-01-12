@@ -14,6 +14,7 @@ const Projects = () => (
         {!(index % 2) && <ProjectPic src={item.picture} />}
       </SectionRow>
     ))}
+
     <Divider src='/images/DividerECL.png' />
   </Section>
 );

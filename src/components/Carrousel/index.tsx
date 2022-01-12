@@ -1,4 +1,6 @@
 import { Carousel } from 'react-responsive-carousel';
+import YotubeEmbed from '../Trailer/YotubeEmbed';
+
 
 const Carrousel = () => {
   return (
@@ -13,7 +15,7 @@ const Carrousel = () => {
       showArrows={false}
     >
       <div>
-        <img src='/images/pearceF4_fighter.webp' />
+      <YotubeEmbed embedId="rokGy0huYEA" />
       </div>
       <div>
         <img src='/images/pearceF4_fighter.webp' />

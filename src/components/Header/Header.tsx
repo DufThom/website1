@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-
 import {
   Container,
   LogoContainer,
@@ -22,18 +21,18 @@ const Header = () => (
       </Link>
     </LogoContainer>
     <LinksContainer>
-      <Link href='/#projects'>
-        <NavLink>Guilde</NavLink>
-      </Link>
-      <Link href='/#tech'>
-        <NavLink>Mission</NavLink>
-      </Link>
-      <Link href='/#about'>
-        <NavLink>Objectif</NavLink>
-      </Link>
+      <Link href='/#guilde'>
+          <NavLink>Guilde</NavLink>
+        </Link>
+      <Link href='/#missions'>
+          <NavLink>Mission</NavLink>
+        </Link>
+      <Link href='/#objectifs'>
+          <NavLink>Objectif</NavLink>
+        </Link>
       <Link href='/#codex'>
-        <NavLink>Codex</NavLink>
-      </Link>
+          <NavLink>Codex</NavLink>
+        </Link>
       <Link href='/JoinUs'>
         <FormButton pic='/images/form_frame.png' width='250px'>
           Formulaire
@@ -42,6 +41,7 @@ const Header = () => (
         </FormButton>
       </Link>
     </LinksContainer>
+
   </Container>
 );
 

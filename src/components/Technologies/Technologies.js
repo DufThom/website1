@@ -9,7 +9,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 import { TechnologiesData } from '../../constants/constants';
 
 const Technologies = () => (
-  <Section id='tech'>
+  <Section >
     <List>
       {TechnologiesData.map((item) => (
         <ListItem>
