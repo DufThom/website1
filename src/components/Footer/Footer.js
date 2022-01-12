@@ -23,6 +23,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <SocialContainer>
           <GrowingPlanet href='https://discord.gg/pz769tvgMJ' src='/images/DiscordECL.png' />
+
           <GrowingPlanet href='https://www.youtube.com/channel/UCYBS4mSRSq29MykFGGjPb0g' src='/images/YoutubeECL.png' />
           <GrowingPlanet href='https://twitter.com/EclypseSA' src='/images/TwitterECL.png' />
           <GrowingPlanet href='https://www.instagram.com/eclypse.sa/' src='/images/InstaECL.png' />

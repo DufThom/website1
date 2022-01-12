@@ -54,6 +54,7 @@ export const InnerBox = styled.div`
   background-position: ${(props) => (props.align === 'start' ? 'left' : 'right')};
   display: flex;
   flex-direction: column;
+  
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 200px;

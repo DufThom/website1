@@ -1,44 +1,47 @@
 import Link from 'next/link';
 import React from 'react';
-import { Container, Div1, Div2, Div3, NavLink } from './HeaderStyles';
+import {
+  Container,
+  LogoContainer,
+  LinksContainer,
+  NavLink,
+  Logo,
+  FormButton,
+  LogoMobile,
+} from './HeaderStyles';
 
 const Header = () => (
-  <Container >
-    <Div1>
+  <Container>
+    <LogoContainer>
       <Link href='/'>
-        <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-        <img src='/images/logo_ecl_blanc.png' width="200" height="auto" /> 
-        </a>
+        <Logo src='/images/logo_ecl_blanc.png' />
       </Link>
-    </Div1>
-    <Div2>
-      <li>
-        <Link href='/#guilde'>
+      <Link href='/'>
+        <LogoMobile src='/images/logo_mobile.png' />
+      </Link>
+    </LogoContainer>
+    <LinksContainer>
+      <Link href='/#guilde'>
           <NavLink>Guilde</NavLink>
         </Link>
-      </li>
-      <li>
-        <Link href='/#missions'>
+      <Link href='/#missions'>
           <NavLink>Mission</NavLink>
         </Link>
-      </li>
-      <li>
-        <Link href='/#objectifs'>
+      <Link href='/#objectifs'>
           <NavLink>Objectif</NavLink>
         </Link>
-      </li>
-      <li>
-        <Link href='/#codex'>
+      <Link href='/#codex'>
           <NavLink>Codex</NavLink>
         </Link>
-      </li>
-      <li></li>
-      <li>
-        <Link href='/JoinUs'>
-          <NavLink>Nous Rejoindre</NavLink>
-        </Link>
-      </li>
-    </Div2>
+      <Link href='/JoinUs'>
+        <FormButton pic='/images/form_frame.png' width='250px'>
+          Formulaire
+          <br />
+          d'adhésion
+        </FormButton>
+      </Link>
+    </LinksContainer>
+
   </Container>
 );
 

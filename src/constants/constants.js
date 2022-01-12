@@ -54,3 +54,61 @@ export const TechnologiesData = [
   { title: 'Crypto', text: "OG de l'écosystème blockchain et trading" },
   { title: 'Valeurs', text: 'Ambiance bienveillante de partage et de réussite commune' },
 ];
+
+export const ProjectData = [
+  {
+    picture: '/images/image1.png',
+    text: "Dans un univers où se mélange virtuel et expérience sociale, les guildes se testent et s'affrontent depuis la nuit des temps. Les questions de gestions ont permis d'identifier les points variants à équilibrer.\n\nDe comprendre leurs facteurs d'influences et comment optimiser au mieux chaque rouage de ces sociétés qui se réinventent. Ces mécanismes ont été étudiés depuis l'existence, à travers les âges, les modèles ont évolués, parfois pour le mieux, parfois pour le pire. Tous ces avatars, qui ont déjà écrit une bonne partie de leur histoire, reviennent plus riches de leurs expériences respectives.",
+  },
+  {
+    picture: '/images/image2.png',
+    text: "Deux expérimentations qui ont beaucoup marquées les esprits et l'univers sont 'World of Warcraft' et 'Eve Online'. Depuis 30 ans, l'histoire s'écrit et ne s'est jamais arrêtée de développer et d'affiner leur point de vue. De véritables matrices, capables d'aider à identifier et comprendre plus facilement les problématiques, toutes les communautés partagent leurs expérimentations sur le terrain, dans un 'jeu de société' qui ne s'arrête jamais.",
+  },
+  {
+    picture: '/images/Vzus_2_keyart1.jpg',
+    text: "Une tempête se prépare à la croisée des guildes et des écosystèmes. Deux univers fusionnent : la crypto sphère et la communauté des joueurs de tout style. Plusieurs Metaverse qui vous permettent d'y vivre des expériences différentes et de vous impliquer à différents niveaux sur des activités en immersion totale dans un monde virtuel.\n\nLes mentalités ont évolué au sein des rangs, il y a eu une vague de défoulement, puis les meilleurs ont gagné la première partie. Les oracles avaient prédit qu'il faudrait une longue phase de recherches et développement pour comprendre les erreurs du passé et optimiser l'avenir. Pour que cette fois-ci la partie dure plus longtemps et profite à tout le monde.",
+  },
+  {
+    picture: '/images/miningsite-01.jpg',
+    text: "Les ingénieurs ajustent leurs dernières idées et vont construire module après module, les nouvelles activités pour tester encore de nouvelles dynamiques. Des maîtres stratèges sont prêts à exécuter leur vision, pour s'exprimer au mieux dans l'histoire du Metaverse. Les armés et les fermiers assurent le maintient des portes des écosystèmes, mais pour combien de temps ?\n\nNous sommes ombre et lumière.\nNous sommes l'Eclypse de ce monde et nous arrivons.",
+  },
+];
+
+export const AccompData = [
+  {
+    number: '>1000000$',
+    text: 'Valeur des assets',
+    image: '/images/accomp/top-left.png',
+    align: 'end',
+  },
+  {
+    number: '>35%',
+    text: 'Actifs par jour',
+    image: '/images/accomp/top-right.png',
+    align: 'start',
+  },
+  {
+    number: '>24h/7',
+    text: 'Multi timezone',
+    image: '/images/accomp/mid-left.png',
+    align: 'end',
+  },
+  {
+    number: '>50',
+    text: 'Medium followers',
+    image: '/images/accomp/mid-right.png',
+    align: 'start',
+  },
+  {
+    number: '>5',
+    text: "Continents d'activité",
+    image: '/images/accomp/bot-left.png',
+    align: 'end',
+  },
+  {
+    number: '>Multi',
+    text: 'Compétences',
+    image: '/images/accomp/bot-right.png',
+    align: 'start',
+  },
+];

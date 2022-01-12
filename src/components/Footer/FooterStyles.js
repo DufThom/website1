@@ -170,7 +170,7 @@ export const GitBookButton = styled.img`
 
 export const GrowingPlanet = styled.img`
   margin: 20px;
-  width: 16.666%;
+  width: 20%;
   transition: 0.3s ease;
   &:hover {
     // background-color: #212d45;
@@ -178,9 +178,9 @@ export const GrowingPlanet = styled.img`
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 20%;
+    width: 30%;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 20%;
+    width: 30%;
   }
 `;
