@@ -1,41 +1,47 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillInstagram, AiFillTwitterCircle, AiFillMediumCircle } from 'react-icons/ai';
-import { SiEclipseide } from 'react-icons/si';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import {
+  Container,
+  LogoContainer,
+  LinksContainer,
+  NavLink,
+  Logo,
+  FormButton,
+  LogoMobile,
+} from './HeaderStyles';
 
 const Header = () => (
   <Container>
-    <Div1>
+    <LogoContainer>
       <Link href='/'>
-        <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-        <img src='/images/logo_ecl_blanc.png' width="200" height="auto" /> 
-        </a>
+        <Logo src='/images/logo_ecl_blanc.png' />
       </Link>
-    </Div1>
-    <Div2>
-      <li>
-        <Link href='/#projects'>
-          <NavLink>Guilde</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href='/#tech'>
-          <NavLink>Mission</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href='/#about'>
-          <NavLink>Objectif</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href='/JoinUs'>
-          <NavLink>Codex</NavLink>
-        </Link>
-      </li>
-    </Div2>
+      <Link href='/'>
+        <LogoMobile src='/images/logo_mobile.png' />
+      </Link>
+    </LogoContainer>
+    <LinksContainer>
+      <Link href='/#projects'>
+        <NavLink>Guilde</NavLink>
+      </Link>
+      <Link href='/#tech'>
+        <NavLink>Mission</NavLink>
+      </Link>
+      <Link href='/#about'>
+        <NavLink>Objectif</NavLink>
+      </Link>
+      <Link href='/#codex'>
+        <NavLink>Codex</NavLink>
+      </Link>
+      <Link href='/JoinUs'>
+        <FormButton pic='/images/form_frame.png' width='250px'>
+          Formulaire
+          <br />
+          d'adhésion
+        </FormButton>
+      </Link>
+    </LinksContainer>
   </Container>
 );
 

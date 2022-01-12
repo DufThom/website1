@@ -9,7 +9,7 @@ import { Section, SectionTitle, GrowingButton, ButtonFrame } from '../../styles/
 
 const Footer = () => {
   return (
-    <Section>
+    <Section id='codex'>
       <SectionTitle>Le Codex</SectionTitle>
       <SocialIconsContainer>
         <GitBookButton
