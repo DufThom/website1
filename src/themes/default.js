@@ -1,7 +1,7 @@
 export default {
   // Temp fonts
   fonts: {
-    main: 'Champagne-Limousines, Space Grotesk, sans-serif',
+    main: 'Adam, Space Grotesk, sans-serif',
     title: 'Game-Of-Squids, Space Grotesk, sans-serif',
   },
   // Colors for layout

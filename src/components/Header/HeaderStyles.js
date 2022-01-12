@@ -4,7 +4,9 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 2rem 1rem;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 999;
   background-color: ${(props) => props.theme.colors.background1};
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 1rem;
