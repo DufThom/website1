@@ -15,16 +15,16 @@ const GlobalStyles = createGlobalStyle`
 
   }
   body {
-    font-family: ${props => props.theme.fonts.main};
+    font-family: ${(props) => props.theme.fonts.main};
     font-size: 1.6rem;
-    background: url('/images/background.jpg') no-repeat center center fixed;;
-    // background: ${props => props.theme.colors.background1};
-    color: ${props => props.theme.colors.primary1};
+    background: center / cover fixed url('/images/background.jpg');
+    // background: ${(props) => props.theme.colors.background1};
+    color: ${(props) => props.theme.colors.primary1};
     cursor: default;
 
   }
   h1,h2,h3,h4,h5,h6,button {
-    font-family: ${props => props.theme.fonts.title};
+    font-family: ${(props) => props.theme.fonts.title};
   }
   a {
     text-decoration: none;
@@ -33,6 +33,10 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
-`;
+.heroVideo iframe {
+  width: 100%;
+  height: 100%;
+}
 
+`;
 export default GlobalStyles;
