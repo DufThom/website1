@@ -1,8 +1,8 @@
 export default {
   // Temp fonts
   fonts: {
-    main: 'Adam, Space Grotesk, sans-serif',
-    title: 'Game-Of-Squids, Space Grotesk, sans-serif',
+    main: 'Made Tommy, sans-serif',
+    title: 'Game Of Squids, sans-serif',
   },
   // Colors for layout
   colors: {
