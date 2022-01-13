@@ -9,9 +9,9 @@ const Projects = () => (
   <Section nopadding id='projects'>
     {ProjectData.map((item, index) => (
       <SectionRow>
-        {index % 2 && <ProjectPic src={item.picture} />}
+        {index % 2 === 0 && <ProjectPic src={item.picture} />}
         <SectionText>{item.text}</SectionText>
-        {!(index % 2) && <ProjectPic src={item.picture} />}
+        {index % 2 !== 0 && <ProjectPic src={item.picture} />}
       </SectionRow>
     ))}
 
