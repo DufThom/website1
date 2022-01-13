@@ -31,7 +31,8 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <title>Eclypse</title>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel='icon' href='/favicon.ico' />
+          <link href='/fonts/style.css' rel='stylesheet' />
         </Head>
         <body>
           <Main />

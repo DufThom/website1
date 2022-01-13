@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Game-Of-Squids';
+  font-family: 'Game Of Squids';
   src: url('gameofsquids.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
@@ -7,8 +7,8 @@
 }
 
 @font-face {
-  font-family: 'Adam';
-  src: url('adam.ttf') format('truetype');
+  font-family: 'Made Tommy';
+  src: url('madetommy.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
