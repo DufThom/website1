@@ -13,6 +13,8 @@ import {
   FormButton,
   LogoMobile,
   MenuLinksContainer,
+  FullMenuLinksContainer,
+  BurgerMenuContainer,
 } from './HeaderStyles';
 
 const Header = () => (
@@ -26,6 +28,20 @@ const Header = () => (
       </Link>
     </LogoContainer>
     <LinksContainer>
+      <FullMenuLinksContainer>
+        <Link href='/#guilde'>
+          <NavLink>Guilde</NavLink>
+        </Link>
+        <Link href='/#missions'>
+          <NavLink>Mission</NavLink>
+        </Link>
+        <Link href='/#objectifs'>
+          <NavLink>Objectif</NavLink>
+        </Link>
+        <Link href='/#codex'>
+          <NavLink>Codex</NavLink>
+        </Link>
+      </FullMenuLinksContainer>
       <a href='https://eclypse-sa.gitbook.io/eclypse-litepaper/' target='_blank'>
         <FormButton pic='/images/form_frame.png' width='250px'>
           Litepaper
@@ -37,30 +53,32 @@ const Header = () => (
         </FormButton>
       </Link>
     </LinksContainer>
-    <Menu right width={250} noOverlay>
-      <MenuLinksContainer>
-        <Link href='/#guilde'>
-          <NavLink>
-            <CgChevronRight size='3rem' /> Guilde
-          </NavLink>
-        </Link>
-        <Link href='/#missions'>
-          <NavLink>
-            <CgChevronRight size='3rem' /> Mission
-          </NavLink>
-        </Link>
-        <Link href='/#objectifs'>
-          <NavLink>
-            <CgChevronRight size='3rem' /> Objectif
-          </NavLink>
-        </Link>
-        <Link href='/#codex'>
-          <NavLink>
-            <CgChevronRight size='3rem' /> Codex
-          </NavLink>
-        </Link>
-      </MenuLinksContainer>
-    </Menu>
+    <BurgerMenuContainer>
+      <Menu right width={250} noOverlay>
+        <MenuLinksContainer>
+          <Link href='/#guilde'>
+            <NavLink>
+              <CgChevronRight size='3rem' /> Guilde
+            </NavLink>
+          </Link>
+          <Link href='/#missions'>
+            <NavLink>
+              <CgChevronRight size='3rem' /> Mission
+            </NavLink>
+          </Link>
+          <Link href='/#objectifs'>
+            <NavLink>
+              <CgChevronRight size='3rem' /> Objectif
+            </NavLink>
+          </Link>
+          <Link href='/#codex'>
+            <NavLink>
+              <CgChevronRight size='3rem' /> Codex
+            </NavLink>
+          </Link>
+        </MenuLinksContainer>
+      </Menu>
+    </BurgerMenuContainer>
   </Container>
 );
 

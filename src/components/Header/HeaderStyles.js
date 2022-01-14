@@ -8,7 +8,7 @@ export const Container = styled.div`
   top: 0;
   z-index: 999;
   background-color: ${(props) => props.theme.colors.background1};
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     padding: 1rem;
   }
 `;
@@ -25,8 +25,13 @@ export const LinksContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 60%;
-  margin-right: 5rem;
+  margin-right: 0;
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin-right: 6rem;
+    width: 80%;
+    font-size: 14px;
+    padding: 0.5rem;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
     font-size: 14px;
@@ -35,10 +40,32 @@ export const LinksContainer = styled.div`
 `;
 
 export const MenuLinksContainer = styled.div`
+  display: none;
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+`;
+
+export const FullMenuLinksContainer = styled.div`
   display: flex;
-  flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: none;
+  }
+`;
+
+export const BurgerMenuContainer = styled.div`
+  display: none;
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
 `;
 
 export const NavLink = styled.li`
