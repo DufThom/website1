@@ -1,14 +1,13 @@
 import React from 'react';
 
 import { Section, SectionText, SectionTitle, GrowingButton } from '../../styles/GlobalComponents';
-import { VideoSection, Overlay } from './HeroStyles';
+import { VideoSection } from './HeroStyles';
 import '../../styles/globals';
 
 const Hero = () => {
   return (
     <>
-      <VideoSection className='heroVideo'>
-        <Overlay />
+      <VideoSection className='heroVideo' id='guilde'>
         <iframe
           src='https://www.youtube.com/embed/ciFSSd39pAY?autoplay=1&controls=0&mute=1&loop=1&modestbranding=1&showinfo=0&enablejsapi=1&&widgetid=&playlist=ciFSSd39pAY'
           title='Eclypse'
@@ -16,7 +15,7 @@ const Hero = () => {
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
         />
       </VideoSection>
-      <Section id='guilde'>
+      <Section>
         <SectionTitle main center>
           La Guilde Francophone de Star Atlas !
         </SectionTitle>

@@ -22,18 +22,18 @@ const Header = () => (
     </LogoContainer>
     <LinksContainer>
       <Link href='/#guilde'>
-          <NavLink>Guilde</NavLink>
-        </Link>
+        <NavLink>Guilde</NavLink>
+      </Link>
       <Link href='/#missions'>
-          <NavLink>Mission</NavLink>
-        </Link>
+        <NavLink>Mission</NavLink>
+      </Link>
       <Link href='/#objectifs'>
-          <NavLink>Objectif</NavLink>
-        </Link>
+        <NavLink>Objectif</NavLink>
+      </Link>
       <Link href='/#codex'>
-          <NavLink>Codex</NavLink>
-        </Link>
-      <Link href='/JoinUs'>
+        <NavLink>Codex</NavLink>
+      </Link>
+      <Link href='/JoinUs#start'>
         <FormButton pic='/images/form_frame.png' width='250px'>
           Formulaire
           <br />
@@ -41,7 +41,6 @@ const Header = () => (
         </FormButton>
       </Link>
     </LinksContainer>
-
   </Container>
 );
 

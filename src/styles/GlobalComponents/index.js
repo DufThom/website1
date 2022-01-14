@@ -61,7 +61,6 @@ export const SectionText = styled.p`
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
-  padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
 
@@ -69,13 +68,11 @@ export const SectionText = styled.p`
     max-width: 670px;
     font-size: 20px;
     line-height: 32px;
-    padding-bottom: 24px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 16px;
     line-height: 24px;
-    padding-bottom: 16px;
   }
 `;
 
@@ -340,4 +337,11 @@ export const Divider = styled.img`
   width: 100px;
   height: 100%;
   margin: 50px;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin: 30px;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin: 20px;
+  }
 `;

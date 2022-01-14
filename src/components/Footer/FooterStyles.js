@@ -48,7 +48,44 @@ export const SocialIconsContainer = styled.div`
   max-width: 1040px;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-bottom: 5rem;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+export const SocialTitleContainer = styled.div`
+  max-width: 1040px;
+  display: flex;
+  justify-content: center;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+export const PapersContainer = styled.div`
+  max-width: 1040px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
 
   @media ${(props) => props.theme.breakpoints.md} {
     display: flex;
@@ -170,15 +207,18 @@ export const GitBookButton = styled.img`
 
 export const GrowingPlanet = styled.img`
   margin: 20px;
-  width: 20%;
+  width: 100%;
   transition: 0.3s ease;
   &:hover {
     // background-color: #212d45;
     transform: scale(1.1);
     cursor: pointer;
   }
+`;
+
+export const PlanetLink = styled.a`
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 30%;
+    width: 25%;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 50%;

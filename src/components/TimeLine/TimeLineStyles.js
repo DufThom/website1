@@ -5,6 +5,7 @@ export const TimeLineContainer = styled.div`
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  margin-top: 3rem;
 `;
 
 export const TimeLineBox = styled.div`
@@ -74,9 +75,9 @@ export const Arrow = styled.img`
   height: 150px;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    height: 80px;
+    height: 70px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    height: 80px;
+    height: 70px;
   }
 `;
