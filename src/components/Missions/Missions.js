@@ -4,6 +4,7 @@ import { Divider, Section, SectionText, SectionTitle } from '../../styles/Global
 
 const Missions = () => (
   <Section id='missions'>
+    <Divider src='/images/DividerECL.png' />
     <SectionTitle>Missions</SectionTitle>
     <SectionText>
       Tu pourras faire carrière dans nos rangs et gravir un à un tout les échelons selon ton
@@ -13,7 +14,6 @@ const Missions = () => (
       investissements et compétences. Ton implication et ta loyauté seront récompensés à leur juste
       valeur en matière de responsabilités et de rémunération en crypto-monnaie.
     </SectionText>
-    <Divider src='/images/DividerECL.png' />
   </Section>
 );
 

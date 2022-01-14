@@ -9,10 +9,10 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 import { TechnologiesData } from '../../constants/constants';
 
 const Technologies = () => (
-  <Section >
+  <Section>
     <List>
-      {TechnologiesData.map((item) => (
-        <ListItem>
+      {TechnologiesData.map((item, index) => (
+        <ListItem key={index}>
           <picture>
             {item.title == 'Gaming' && <CgGames size='4rem' />}
             {item.title == 'Crypto' && <FaBitcoin size='4rem' />}

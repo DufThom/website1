@@ -4,8 +4,6 @@ export const Boxes = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 60px;
-  margin-bottom: 50px;
   background: center / 50% no-repeat url('/images/accomp/eclypse.png');
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -54,7 +52,6 @@ export const InnerBox = styled.div`
   background-position: ${(props) => (props.align === 'start' ? 'left' : 'right')};
   display: flex;
   flex-direction: column;
-  
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 200px;

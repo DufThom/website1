@@ -28,9 +28,8 @@ export default class MyDocument extends Document {
   }
   render() {
     return (
-      <Html lang='en-GB'>
+      <Html lang='fr-FR'>
         <Head>
-          <title>Eclypse</title>
           <link rel='icon' href='/favicon.ico' />
           <link href='/fonts/style.css' rel='stylesheet' />
         </Head>
