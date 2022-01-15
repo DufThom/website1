@@ -8,7 +8,7 @@ export const Container = styled.div`
   top: 0;
   z-index: 999;
   background-color: ${(props) => props.theme.colors.background1};
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     padding: 1rem;
   }
 `;
@@ -20,11 +20,18 @@ export const LogoContainer = styled.div`
     width: 20%;
   }
 `;
+
 export const LinksContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 60%;
+  margin-right: 0;
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin-right: 6rem;
+    width: 80%;
+    font-size: 14px;
+    padding: 0.5rem;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
     font-size: 14px;
@@ -32,24 +39,49 @@ export const LinksContainer = styled.div`
   }
 `;
 
+export const MenuLinksContainer = styled.div`
+  display: none;
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+`;
+
+export const FullMenuLinksContainer = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: none;
+  }
+`;
+
+export const BurgerMenuContainer = styled.div`
+  display: none;
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+`;
+
 export const NavLink = styled.li`
+  display: flex;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
-  margin: 0 20px;
+  margin: 20px 20px;
   font-size: 24px;
   font-weight: bold;
+  transition: 0.3s ease;
   &:hover {
     color: #fff;
     opacity: 1;
     cursor: pointer;
-  }
-  @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 18px;
-  }
-  @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 12px;
-    margin: 0 8px;
+    transform: translateX(5px);
   }
 `;
 
@@ -75,7 +107,8 @@ export const LogoMobile = styled.img`
 
 export const FormButton = styled.div`
   color: white;
-  padding: 10px 30px;
+  padding: 20px;
+  margin: 0 20px;
   font-weight: bold;
   font-size: 12px;
   text-align: center;
@@ -89,11 +122,10 @@ export const FormButton = styled.div`
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.md} {
-    padding: 8px 16px;
-    font-size: 10px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 8px;
-    font-size: 6px;
+    font-size: 10px;
+    padding: 12px;
+    margin: 0 10px;
   }
 `;
