@@ -7,12 +7,12 @@ const Missions = () => (
     <Divider src='/images/DividerECL.png' />
     <SectionTitle>Missions</SectionTitle>
     <SectionText>
-      Tu pourras faire carrière dans nos rangs et gravir un à un tout les échelons selon ton
-      implication. Une fois dans nos rangs, tu auras l’occasion de rejoindre le “département” qui te
-      convient (combattant, exploration, minage, etc.) afin de t’épanouir. Tu seras accompagné par
-      des membres expérimentés de l’univers crypto, gaming pour t’aider à faire fructifier tes
-      investissements et compétences. Ton implication et ta loyauté seront récompensés à leur juste
-      valeur en matière de responsabilités et de rémunération en crypto-monnaie.
+    Tu feras carrière et gravira les échelons, selon ton implication. 
+Afin de t’épanouir, tu pourras rejoindre le « Ministère » qui te convient (Armées, Exploration, Industrie, …).
+Ta progression se fera aux côtés de membres expérimentés de l’univers crypto, gaming pour te donner la capacité de développer tes compétences et tes investissements.
+Ton engagement, tes performances et ta loyauté seront récompensés à leur juste valeur.
+Enfin tu vivras une aventure humaine, conviviale et galactique à couper le souffle !
+
     </SectionText>
   </Section>
 );

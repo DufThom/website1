@@ -25,7 +25,7 @@ const Technologies = () => (
         </ListItem>
       ))}
     </List>
-    <Divider src='/images/DividerECL.png' />
+    
   </Section>
 );
 

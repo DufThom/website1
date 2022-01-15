@@ -20,9 +20,11 @@ const Hero = () => {
           La Guilde Francophone de Star Atlas !
         </SectionTitle>
         <SectionText>
-          Nos membres sont la synthèse (symbiose) de joueurs expérimentés 4X comme Eve online et
-          d'investisseurs de tout niveau qui souhaitent faire briller la francophonie à travers
-          l'univers des métaverses et particulièrement sur Star Atlas.
+        Eclypse est une communauté de joueurs en quête d’exploration spatiale. 
+Certain(e)s, très expérimenté(e)s, proviennent de 4X, comme Eve Online… ou sont des investisseurs de tous niveaux.
+Notre volonté, est de faire rayonner la francophonie à travers les métavers.
+Notre point de départ : Star Atlas !
+
         </SectionText>
         <GrowingButton
           href='https://discord.gg/pz769tvgMJ'

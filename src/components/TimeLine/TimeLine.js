@@ -15,10 +15,9 @@ const Timeline = () => {
   return (
     <Section id='objectifs'>
       <Divider src='/images/DividerECL.png' />
-      <SectionTitle>Nos Objectifs</SectionTitle>
+      <SectionTitle>Notre Ambition</SectionTitle>
       <SectionText>
-        Construire une communauté de joueur francophone soudé qui saura influencer le cours des
-        évènements au sein du métaverse Star Atlas.
+      Être la première communauté francophone performante et conviviale, à écrire l’histoire de Star Atlas. <br/>
       </SectionText>
       <TimeLineContainer>
         {TimeLineData.map((item, index) => (
@@ -31,7 +30,11 @@ const Timeline = () => {
           </TimeLineBox>
         ))}
       </TimeLineContainer>
-    </Section>
+      <SectionText>
+      Es-tu prêt à relever les défis d’un nouveau métavers et saisir les opportunités qui s’offrent à toi ?
+      </SectionText>
+      <Divider src='/images/DividerECL.png' />
+      </Section>
   );
 };
 

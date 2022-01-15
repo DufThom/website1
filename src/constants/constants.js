@@ -44,70 +44,70 @@ export const projects = [
 
 export const TimeLineData = [
   { year: '01/2022', text: 'Website V1' },
-  { year: '04/2022', text: 'Website V2' },
-  { year: '05/2022', text: 'DAO' },
+  { year: '04/2022', text: 'DAO' },
+  { year: '05/2022', text: 'Website V2' },
   { year: '12/2022', text: 'Gaming' },
 ];
 
 export const TechnologiesData = [
   { title: 'Gaming', text: 'Experience sur Eve Online' },
-  { title: 'Crypto', text: "OG de l'écosystème blockchain et trading" },
-  { title: 'Valeurs', text: 'Ambiance bienveillante de partage et de réussite commune' },
+  { title: 'Crypto', text: "OG de l'écosystème Crypto" },
+  { title: 'Valeurs', text: 'Bienveillance, Partage et Cohésion' },
 ];
 
 export const ProjectData = [
   {
     picture: '/images/image1.png',
-    text: "Dans un univers où se mélange virtuel et expérience sociale, les guildes se testent et s'affrontent depuis la nuit des temps. Les questions de gestions ont permis d'identifier les points variants à équilibrer.\n\nDe comprendre leurs facteurs d'influences et comment optimiser au mieux chaque rouage de ces sociétés qui se réinventent. Ces mécanismes ont été étudiés depuis l'existence, à travers les âges, les modèles ont évolués, parfois pour le mieux, parfois pour le pire. Tous ces avatars, qui ont déjà écrit une bonne partie de leur histoire, reviennent plus riches de leurs expériences respectives.",
+    text: "Cet univers, composé de 3 factions, voit les guildes s’affronter pour le contrôle des richesses et la domination. La frontière du réel, laisse place au virtuel et à l’expérience sociale pour un avenir à la recherche d’un équilibre. La variété des mécaniques présente (pilotage, gestion, stratégie, RPG…) offrent des possibilités d’une profondeur encore jamais vu dans l’histoire des jeux vidéo.",
   },
   {
     picture: '/images/image2.png',
-    text: "Deux expérimentations qui ont beaucoup marquées les esprits et l'univers sont 'World of Warcraft' et 'Eve Online'. Depuis 30 ans, l'histoire s'écrit et ne s'est jamais arrêtée de développer et d'affiner leur point de vue. De véritables matrices, capables d'aider à identifier et comprendre plus facilement les problématiques, toutes les communautés partagent leurs expérimentations sur le terrain, dans un 'jeu de société' qui ne s'arrête jamais.",
+    text: "Depuis 30 ans, les mondes se créent et se déchirent dans une lutte sans merci. Des millions de joueurs, au travers de leur avatars ont écrit l’histoire et donnés vie à des mondes tel que “World of Warcraft”, ou “Eve Online”. De l’origine des temps à une société intergalactique, dans ce monde ludique tout est possible ! L’imagination et les technologies proposent des défis toujours plus grands, et poussent l’expérience joueur vers une immersion totale. \nCe jeu de société, devenu un jeu de rôle, nous promet des aventures hors du commun.",
   },
   {
     picture: '/images/Vzus_2_keyart1.jpg',
-    text: "Une tempête se prépare à la croisée des guildes et des écosystèmes. Deux univers fusionnent : la crypto sphère et la communauté des joueurs de tout style. Plusieurs Metaverse qui vous permettent d'y vivre des expériences différentes et de vous impliquer à différents niveaux sur des activités en immersion totale dans un monde virtuel.\n\nLes mentalités ont évolué au sein des rangs, il y a eu une vague de défoulement, puis les meilleurs ont gagné la première partie. Les oracles avaient prédit qu'il faudrait une longue phase de recherches et développement pour comprendre les erreurs du passé et optimiser l'avenir. Pour que cette fois-ci la partie dure plus longtemps et profite à tout le monde.",
+    text: "A la croisée des chemins, deux univers incontournables fusionnent : la crypto-sphère et la communauté de joueurs. Un premier affrontement dévastateur, entre nouvelles technologies et comportements humains, a laissé place à une ère de recherche et de développement. Guidé par les oracles, après une longue phase de réflexion, les mentalités ont évolué. ",
   },
   {
     picture: '/images/miningsite-01.jpg',
-    text: "Les ingénieurs ajustent leurs dernières idées et vont construire module après module, les nouvelles activités pour tester encore de nouvelles dynamiques. Des maîtres stratèges sont prêts à exécuter leur vision, pour s'exprimer au mieux dans l'histoire du Metaverse. Les armés et les fermiers assurent le maintient des portes des écosystèmes, mais pour combien de temps ?\n\nNous sommes ombre et lumière.\nNous sommes l'Eclypse de ce monde et nous arrivons.",
+    text: "Les erreurs du passé sont à présent révolues. Les architectes de ce monde ajustent leurs dernières idées et la promesse d’un avenir prospère et profitable semble enfin nous sourire.\n Alors que les pilotes, mineurs, explorateurs… assureront le maintien de cet écosystème, les maitres de la stratégie, élaborent leurs plans. \n L’âge de la maturité arrive, en ferez-vous partie ? ",
   },
 ];
 
 export const AccompData = [
   {
-    number: '>1000000$',
+    number: '> 1000000$',
     text: 'Valeur des assets',
     image: '/images/accomp/top-left.png',
     align: 'end',
   },
   {
-    number: '>35%',
+    number: '> 35%',
     text: 'Actifs par jour',
     image: '/images/accomp/top-right.png',
     align: 'start',
   },
   {
-    number: '>24h/7',
+    number: '24h/7',
     text: 'Multi timezone',
     image: '/images/accomp/mid-left.png',
     align: 'end',
   },
   {
-    number: '>50',
-    text: 'Medium followers',
+    number: '> 130',
+    text: 'Twitter followers',
     image: '/images/accomp/mid-right.png',
     align: 'start',
   },
   {
-    number: '>5',
-    text: "Continents d'activité",
+    number: '5 ',
+    text: "Continents",
     image: '/images/accomp/bot-left.png',
     align: 'end',
   },
   {
-    number: '>Multi',
-    text: 'Compétences',
+    number: '> 500',
+    text: 'Discord membres',
     image: '/images/accomp/bot-right.png',
     align: 'start',
   },
